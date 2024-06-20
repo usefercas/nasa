@@ -1,0 +1,86 @@
+[
+    {
+      "id": 1,
+      "name": "Zapatilla 1",
+      "description": "Esta es la descripción de la zapatilla 1.",
+      "price": 99.99,
+      "images": [
+        "img1.webp",
+        "/img2.webp",
+        "/img3.webp",
+        "/img4.webp",
+        "/img5.webp",
+        "/img6.webp",
+        "/img7.webp",
+        "/img8.webp",
+        "/img9.webp",
+        "/img10.webp",
+        "/img11.webp",
+        "/img12.webp",
+        "/img13.webp",
+        "/img14.webp",
+        "/img15.webp",
+        "/img16.webp",
+        "/img17.webp",
+        "/img18.webp",
+        "/img19.webp",
+        "/img20.webp",
+        "/img21.webp",
+        "/img22.webp",
+        "/img23.webp",
+        "/img24.webp",
+        "/img25.webp",
+        "/img26.webp",
+        "/img27.webp",
+        "/img28.webp",
+        "/img29.webp",
+        "/img30.webp",
+        "img31.webp",
+        "/img32.webp",
+        "/img33.webp",
+        "/img34.webp",
+        "/img35.webp"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Zapatilla 2",
+      "description": "Esta es la descripción de la zapatilla 2.",
+      "price": 129.99,
+      "images": [
+        "/img/zapatilla2/img1.webp",
+        "/img/zapatilla2/img2.webp",
+        "/img/zapatilla2/img3.webp",
+        "/img/zapatilla2/img4.webp",
+        "/img/zapatilla2/img5.webp",
+        "/img/zapatilla2/img6.webp",
+        "/img/zapatilla2/img7.webp",
+        "/img/zapatilla2/img8.webp",
+        "/img/zapatilla2/img9.webp",
+        "/img/zapatilla2/img10.webp",
+        "/img/zapatilla2/img11.webp",
+        "/img/zapatilla2/img12.webp"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Zapatilla 3",
+      "description": "Esta es la descripción de la zapatilla 3.",
+      "price": 149.99,
+      "images": [
+        "/img/zapatilla3/img1.webp",
+        "/img/zapatilla3/img2.webp",
+        "/img/zapatilla3/img3.webp",
+        "/img/zapatilla3/img4.webp",
+        "/img/zapatilla3/img5.webp",
+        "/img/zapatilla3/img6.webp",
+        "/img/zapatilla3/img7.webp",
+        "/img/zapatilla3/img8.webp",
+        "/img/zapatilla3/img9.webp",
+        "/img/zapatilla3/img10.webp",
+        "/img/zapatilla3/img11.webp",
+        "/img/zapatilla3/img12.webp"
+      ]
+    }
+  ]
+  
