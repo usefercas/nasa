@@ -26,7 +26,7 @@ function SplineComponent() {
           }}
         />
         <div className="overlay-text">
-          <h1>Texto en letras blancas</h1>
+          <h1>Texto en letras blancas isaac</h1>
           <p>Descripción o contenido adicional en blanco</p>
         </div>
       </div>
