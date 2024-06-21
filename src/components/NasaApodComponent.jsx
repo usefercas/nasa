@@ -44,6 +44,7 @@ const NasaApodComponent = () => {
 
   return (
     <div className="apod-container">
+      <h1>Foto del dia </h1>
       <form>
         <label>
           Seleccione una fecha:

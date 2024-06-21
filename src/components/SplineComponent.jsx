@@ -1,4 +1,3 @@
-// SplineComponent.jsx
 
 import React from 'react';
 import dynamic from 'next/dynamic';
@@ -26,8 +25,8 @@ function SplineComponent() {
           }}
         />
         <div className="overlay-text">
-          <h1>Texto en letras blancas isaac</h1>
-          <p>Descripción o contenido adicional en blanco</p>
+          <h1>El mundo en tus manos </h1>
+          <p>Descubre un mundo maravilloso y apasionante lleno de curiosidades.</p>
         </div>
       </div>
     </main>
@@ -35,4 +34,3 @@ function SplineComponent() {
 }
 
 export default SplineComponent;
-
