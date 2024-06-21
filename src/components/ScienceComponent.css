@@ -1,0 +1,49 @@
+/* ScienceComponent.css */
+
+.science-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: whitesmoke; /* Fondo completamente transparente */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+  }
+  
+  .text-container {
+    max-width: 60%; /* Ocupa el 60% del ancho */
+    color: black; /* Color del texto */
+  }
+  
+  .text-container h1,
+  .text-container h2,
+  .text-container p {
+    color: black; /* Color del texto */
+  }
+  
+  .image-container {
+    max-width: 35%; /* Ocupa el 35% del ancho */
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .science-container {
+      flex-direction: column;
+    }
+  
+    .text-container,
+    .image-container {
+      max-width: 100%;
+    }
+  
+    .image-container {
+      margin-top: 20px;
+    }
+  }
+  

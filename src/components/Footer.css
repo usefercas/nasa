@@ -1,0 +1,51 @@
+/* Home.css */
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('./italia.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+  
+  .transparent-box {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 100px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .title, #parrafo, .create-button2 {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  #parrafo {
+    color: white;
+  }
+  
+  .button-home {
+    margin-top: 50px !important;
+  }
+  
+  .create-button2 {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .create-button2:hover {
+    background-color: darkred;
+    color: white;
+  }
+  

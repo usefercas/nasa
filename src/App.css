@@ -1,5 +1,5 @@
 body {
-  background-color: #000000; /* Color negro sólido */
+  background-color: black; /* Color negro sólido */
   color: #ffffff; /* Color del texto blanco */
   margin: 0; /* Elimina el margen por defecto */
   font-family: Arial, sans-serif; /* Fuente de texto legible */

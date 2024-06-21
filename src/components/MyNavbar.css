@@ -1,21 +1,34 @@
-/* Navbar.css */
+/* MyNavbar.css */
 
 .navbar {
-    background-color: #add8e6; /* Cambia el color de fondo del Navbar a azul claro */
+    background-color: #0802A3; /* Cambia el color de fondo del Navbar a azul claro */
+    width: 100%;
+    height: 80px; /* Ajusta la altura del Navbar */
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Asegura que los elementos se distribuyan correctamente */
+    padding: 0 20px; /* Añade un poco de padding a los lados */
+    box-sizing: border-box; /* Asegura que el padding no afecte al ancho total */
 }
-  
-.navbar-brand {
-    color: #000000; /* Cambia el color del texto de la marca a negro */
-    font-size: 1.5rem; /* Tamaño del texto de la marca */
-    font-weight: bold; /* Peso de la fuente de la marca */
+
+.navbar-brand img {
+    height: 60px; /* Ajusta la altura del logo */
 }
-  
+
 .nav-link {
-    color: #000000; /* Cambia el color del texto de los enlaces a negro */
+    color: white; /* Cambia el color del texto de los enlaces a blanco */
     font-size: 1.2rem; /* Tamaño del texto de los enlaces */
     margin-left: 20px; /* Espacio entre los enlaces */
 }
-  
+
 .nav-link:hover {
-    color: #808080; /* Cambia el color del texto de los enlaces al pasar el cursor sobre ellos */
+    color: black; /* Cambia el color del texto de los enlaces al pasar el cursor sobre ellos */
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    flex-wrap: nowrap; /* Evita que los elementos se envuelvan */
 }
