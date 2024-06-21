@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-around; /* Espacio uniforme entre los elementos */
     align-items: center;
-    background-color: #f0f0f0;
+    background-color: black;
     padding: 20px;
     flex-wrap: wrap; /* Envuelve los elementos en pantallas pequeñas */
   }
