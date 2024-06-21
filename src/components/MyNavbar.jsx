@@ -15,10 +15,15 @@ const MyNavbar = () => {
           />
         </Navbar.Brand>
 
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
           <Nav className="ml-auto">
             <LinkContainer to="/foto">
               <Nav.Link>Foto del Día</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/mapa">
+              <Nav.Link>Mapa Interactivo</Nav.Link>
             </LinkContainer>
           </Nav>
         </Navbar.Collapse>

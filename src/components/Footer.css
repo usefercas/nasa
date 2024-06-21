@@ -1,51 +1,33 @@
-/* Home.css */
+/* Footer.css */
 
-.home-container {
+.footer-container {
     display: flex;
-    flex-direction: column;
+    justify-content: space-around; /* Espacio uniforme entre los elementos */
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    flex-wrap: wrap; /* Envuelve los elementos en pantallas pequeñas */
+  }
+  
+  .footer-container a {
+    display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-image: url('./italia.png');
-    background-size: cover;
-    background-position: center;
-    color: white;
+    margin: 10px; /* Espacio entre los enlaces */
+    width: 150px; /* Ancho fijo para cada logo */
   }
   
-  .transparent-box {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 100px;
-    border-radius: 10px;
-    width: 80%;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+  .logo {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
   }
   
-  .title, #parrafo, .create-button2 {
-    font-family: 'Roboto', sans-serif;
+  @media (max-width: 768px) {
+    .footer-container a {
+      width: 120px; /* Ancho reducido para pantallas pequeñas */
+    }
   }
   
-  #parrafo {
-    color: white;
-  }
-  
-  .button-home {
-    margin-top: 50px !important;
-  }
-  
-  .create-button2 {
-    background-color: red;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    cursor: pointer;
-    text-decoration: none;
-  }
-  
-  .create-button2:hover {
-    background-color: darkred;
-    color: white;
-  }
+
   
